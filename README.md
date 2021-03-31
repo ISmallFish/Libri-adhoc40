@@ -283,6 +283,63 @@ the T60 around 900 ms. Because the room is far from noisy environments, the reco
 </tbody>
 </table>
 
+> The specific coordinates of the loudspeaker (for training data) are shown in the table below：
+>
+<table>
+<thead>
+  <tr>
+    <th>loudspeaker<br>position</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+    <th>7</th>
+    <th>8</th>
+    <th>9</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>x(m)</td>
+    <td>2.7</td>
+    <td>2.7</td>
+    <td>2.7</td>
+    <td>4.3</td>
+    <td>5.9</td>
+    <td>8.3</td>
+    <td>8.3</td>
+    <td>8.3</td>
+    <td>5.1</td>
+  </tr>
+  <tr>
+    <td>y(m)</td>
+    <td>4.4</td>
+    <td>2.8</td>
+    <td>1.2</td>
+    <td>1.2</td>
+    <td>1.2</td>
+    <td>2.0</td>
+    <td>3.6</td>
+    <td>5.2</td>
+    <td>3.6</td>
+  </tr>
+  <tr>
+    <td>z(m)</td>
+    <td>0.95</td>
+    <td>0.95</td>
+    <td>0.95</td>
+    <td>0.95</td>
+    <td>0.95</td>
+    <td>0.95</td>
+    <td>0.95</td>
+    <td>0.95</td>
+    <td>0.95</td>
+  </tr>
+</tbody>
+</table>
+> Note that, 
 ### development and test data
 
 
