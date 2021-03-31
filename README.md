@@ -186,58 +186,60 @@ the T60 around 900 ms. Because the room is far from noisy environments, the reco
     <td>0.9</td>
     <td>0.9</td>
   </tr>
+</tbody>
+</table>
+<table>
+<thead>
   <tr>
-    <td>mic</td>
-    <td>21</td>
-    <td>22</td>
-    <td>23</td>
-    <td>24</td>
-    <td>25</td>
-    <td>26</td>
-    <td>27</td>
-    <td>28</td>
-    <td>29</td>
-    <td>30</td>
-    <td>31</td>
-    <td>32</td>
-    <td>33</td>
-    <td>34</td>
-    <td>35</td>
-    <td>36</td>
-    <td>37</td>
-    <td>38</td>
-    <td>39</td>
-    <td>40</td>
+    <th>mic</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+    <th>7</th>
+    <th>8</th>
+    <th>9</th>
+    <th>10</th>
+    <th>11</th>
+    <th>12</th>
+    <th>13</th>
+    <th>14</th>
+    <th>15</th>
+    <th>16</th>
+    <th>17</th>
+    <th>18</th>
+    <th>19</th>
+    <th>20</th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td>x(m)</td>
+    <td>9.1</td>
+    <td>8.3</td>
+    <td>9.1</td>
+    <td>8.3</td>
+    <td>9.1</td>
+    <td>8.3</td>
+    <td>9.1</td>
+    <td>8.3</td>
+    <td>7.5</td>
+    <td>6.7</td>
+    <td>7.5</td>
+    <td>6.7</td>
+    <td>7.5</td>
+    <td>6.7</td>
+    <td>7.5</td>
+    <td>6.7</td>
     <td>5.9</td>
     <td>5.1</td>
     <td>5.9</td>
     <td>5.1</td>
-    <td>4.3</td>
-    <td>3.5</td>
-    <td>4.3</td>
-    <td>3.5</td>
-    <td>4.3</td>
-    <td>3.5</td>
-    <td>4.3</td>
-    <td>3.5</td>
-    <td>2.7</td>
-    <td>1.9</td>
-    <td>2.7</td>
-    <td>1.9</td>
-    <td>2.7</td>
-    <td>1.9</td>
-    <td>2.7</td>
-    <td>1.9</td>
   </tr>
   <tr>
     <td>y(m)</td>
-    <td>2</td>
-    <td>2.8</td>
-    <td>0.4</td>
-    <td>1.2</td>
     <td>5.2</td>
     <td>6.0</td>
     <td>3.6</td>
@@ -254,6 +256,10 @@ the T60 around 900 ms. Because the room is far from noisy environments, the reco
     <td>2.8</td>
     <td>0.4</td>
     <td>1.2</td>
+    <td>5.2</td>
+    <td>6.0</td>
+    <td>3.6</td>
+    <td>4.4</td>
   </tr>
   <tr>
     <td>z(m)</td>
