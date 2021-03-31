@@ -62,18 +62,17 @@
 
   Assume that the sentence with the number of '229-130880-0017' was replayed, where number '229-130880-0017' means that speaker '229' speaked according to sentence '0017' in chapter '130880'. The naming rule can be described as follows:
 > We can obtained 41 channels of data in total, since we recorded it in the office room and the anechoic chamber respectively. For each sentence we recorded, we first classified them according to the position of loudspeaker and speaker, then according to the chapters, and finally according to the orginal sentences number. Specifically, for each utterance recorded in the office room, we created a new name for it through adding a suffix to the original number ('174-84280-0010') according to the number of the microphone. As for the utterances recorded in anechoic chamber, a suffix named 'anechoic' is added at the end of each utterance.
->> In Librispeech corpus, the relative path of sentence '229-130880-0017' is 
+>> In Librispeech corpus, the relative path of sentence '229-130880-0017' is:
 >> ```
->> \train-clean-100\229\130880\229-130880-0017.flac
+>> .\train-clean-100\229\130880\229-130880-0017.flac
 >> ```
 >> 
->> In Libri-adhoc40 corpus, the relative path of sentence '229-130880-0017' is 
+>> In Libri-adhoc40 corpus, the relative path of sentence '229-130880-0017' has the following form: 
 >> ```
->> \adhoc40-train\pos #\229\130880\229-130880-0017-ch-#.wav
+>> .\adhoc40-train\pos #\229\130880\229-130880-0017-ch-#.wav
+>>                                 \229-130880-0017-anechoic.wav
 >> ```
->> The `pos #` and `ch-#` indicates the position of loudspeaker and microphone number respectively.
-
-  See below for more detailed descriptions.
+>> The `pos #` and `ch-#` indicates the position of loudspeaker and microphone number respectively. See below for more detailed descriptions about them.
 
 ### training data
 
