@@ -557,9 +557,63 @@ Pos 1 to 4 were selected to replay 'test-clean' corpus and pos 5 to 8 were selec
 </tbody>
 </table>
 
-> The specific coordinates of the loudspeaker (for training data) are shown in the table below：
+> The specific coordinates of the loudspeaker (for development and test data) are shown in the table below：
 >
-
+<table>
+<thead>
+  <tr>
+    <th>loudspeaker<br>position</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+    <th>7</th>
+    <th>8</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>data catagory</td>
+    <td colspan="4">test set</td>
+    <td colspan="4">dev set</td>
+  </tr>
+  <tr>
+    <td>x(m)</td>
+    <td>2.7</td>
+    <td>2.7</td>
+    <td>2.7</td>
+    <td>4.3</td>
+    <td>5.9</td>
+    <td>8.3</td>
+    <td>8.3</td>
+    <td>8.3</td>
+  </tr>
+  <tr>
+    <td>y(m)</td>
+    <td>4.4</td>
+    <td>2.8</td>
+    <td>1.2</td>
+    <td>1.2</td>
+    <td>1.2</td>
+    <td>2.0</td>
+    <td>3.6</td>
+    <td>5.2</td>
+  </tr>
+  <tr>
+    <td>z(m)</td>
+    <td>0.95</td>
+    <td>0.95</td>
+    <td>0.95</td>
+    <td>0.95</td>
+    <td>0.95</td>
+    <td>0.95</td>
+    <td>0.95</td>
+    <td>0.95</td>
+  </tr>
+</tbody>
+</table>
 
 ## Download Link
 The data can be downloaded at https://github.com/ISmallFish/Libri-adhoc40
