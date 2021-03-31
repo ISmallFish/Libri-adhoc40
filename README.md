@@ -582,23 +582,23 @@ Pos 1 to 4 were selected to replay 'test-clean' corpus and pos 5 to 8 were selec
   <tr>
     <td>x(m)</td>
     <td>2.7</td>
-    <td>2.7</td>
+    <td>4.3</td>
+    <td>5.9</td>
+    <td>7.5</td>
     <td>2.7</td>
     <td>4.3</td>
     <td>5.9</td>
-    <td>8.3</td>
-    <td>8.3</td>
-    <td>8.3</td>
+    <td>7.5</td>
   </tr>
   <tr>
     <td>y(m)</td>
-    <td>4.4</td>
-    <td>2.8</td>
     <td>1.2</td>
     <td>1.2</td>
     <td>1.2</td>
-    <td>2.0</td>
-    <td>3.6</td>
+    <td>1.2</td>
+    <td>5.2</td>
+    <td>5.2</td>
+    <td>5.2</td>
     <td>5.2</td>
   </tr>
   <tr>
