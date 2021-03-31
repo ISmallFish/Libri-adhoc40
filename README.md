@@ -80,8 +80,6 @@
 
 ### **Training data**
 
-#### **Recording environment**
-
 The plane structure of the office room are as shown below. 
 
 >The red dot indicates the origin of the reference axes. The blue dots indicate the positions of the microphones, whose coordinates are listed in the upper-left corner. The positions and orientations of the loudspeaker are marked by loudspeaker icons. The terms ‘pos’ is short for position. The term ‘mic’ is short for microphone.
@@ -342,6 +340,10 @@ the T60 around 900 ms. Because the room is far from noisy environments, the reco
 
 > Note that the loudspeaker at ‘pos 9’ has 2 opposite orientations, we refer to the loudspeaker facing upward as `pos 9u`, and the another one as `pos 9d`.
 > 
+
+The relationships between the loudspeaker positions and the speaker identities can be found [here](****).
+
+
 ### development and test data
 
 
