@@ -80,7 +80,7 @@
 
 ### **Training data**
 
-The plane structure of the office room are as shown below. 
+The plane structure of the office room is as shown below. 
 
 >The red dot indicates the origin of the reference axes. The blue dots indicate the positions of the microphones, whose coordinates are listed in the upper-left corner. The positions and orientations of the loudspeaker are marked by loudspeaker icons. The terms ‘pos’ is short for position. The term ‘mic’ is short for microphone.
 <img src="https://github.com/ISmallFish/Libri-adhoc40/blob/main/images/train_rec_pic.jpg" width="450">
@@ -341,11 +341,14 @@ the T60 around 900 ms. Because the room is far from noisy environments, the reco
 > Note that the loudspeaker at ‘pos 9’ has 2 opposite orientations, we refer to the loudspeaker facing upward as `pos 9u`, and the another one as `pos 9d`.
 > 
 
-The relationships between the loudspeaker positions and the speaker identities can be found [here](https://github.com/ISmallFish/Libri-adhoc40/blob/main/relationships_of_ldspkrpos_to_spkr/adhoc40_train_pos_to_spkr.xlsx).
+The relationships between the positions of loudspeaker and the identities of speakers can be found [here](https://github.com/ISmallFish/Libri-adhoc40/blob/main/relationships_of_ldspkrpos_to_spkr/adhoc40_train_pos_to_spkr.xlsx).
 
 
 ### development and test data
 
+The plane structure of the office room and the positions of loudspeaker and microphones are as shown below.
+>The red dot indicates the origin of the reference axes. The blue dots indicate the positions of the microphones, whose coordinates are listed in the upper-left corner. The positions and orientations of the loudspeaker are marked by loudspeaker icons. The terms ‘pos’ is short for position. The term ‘mic’ is short for microphone.
+<img src="https://github.com/ISmallFish/Libri-adhoc40/blob/main/images/train_rec_pic.jpg" width="450">
 
 ## Download Link
 The data can be downloaded at https://github.com/ISmallFish/Libri-adhoc40
