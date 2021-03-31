@@ -4,9 +4,21 @@ Libri-adhoc40 is a synchronized speech corpus, which collects the replayed Libri
 ## Description of the dataset
 The Libri-adhoc40 dataset is built on the ‘train-clean-100’, ‘dev-clean’, and ‘test-clean’ corpora of Librispeech, which contains about 110 hours of US English speech from 331 speakers. Eventually, Libri-adhoc40 contains 4510 hours data in total with 110 hours data per microphone.
 
-| subset name | training data  | development data | test data  | ground-truth clean speech  |
-| --- | --- | --- | --- | --- |
-| recording environment |office room  | office room  | office room | anechoic chamber  |
+<table>
+    <tr>
+        <th>班级</th><th>课程</th><th>平均分</th>
+    </tr>
+    <tr>
+        <td rowspan="3">1班</td><td>语文</td><td>95</td>
+    </tr>
+    <tr>
+        <td>数学</td><td>96</td>
+    </tr>
+    <tr>
+        <td>英语</td><td>92</td>
+    </tr>
+</table>
+
 
 ### training data
 
