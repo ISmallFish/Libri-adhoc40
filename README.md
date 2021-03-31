@@ -8,7 +8,7 @@ The Libri-adhoc40 dataset is built on the ‘train-clean-100’, ‘dev-clean’
 #### Recording environment
 The plane structure of the office room is shown in Figure 1.
 
-![mahua](mahua-logo.jpg)
+![mahua](https://github.com/ISmallFish/Libri-adhoc40/blob/main/images/train_rec_pic.jpg)
 
 ### Libri-adhoc40-dev
 
