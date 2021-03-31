@@ -88,7 +88,7 @@ The plane structure of the office room is as shown below.
 The height of the room is 4.2 m. Because the room size is large, and because the floor is laid with smooth tiles, the room is highly reverberant with
 the T60 around 900 ms. Because the room is far from noisy environments, the recorded speech has little additive noise. A directional loudspeaker and 40 omnidirectional microphones of the same type were placed in the room. The sampling rate is 16 kHz.
 
-> The specific coordinates of these 40 microphones (for training data) are shown in the table below：
+> The specific coordinates of these 40 microphones (for training data) are shown in the tables below：
 >
 <table>
 <thead>
@@ -358,7 +358,7 @@ The plane structure of the office room and the positions of loudspeaker and micr
 
 Pos 1 to 4 were selected to replay 'test-clean' corpus and pos 5 to 8 were selected to replay 'dev-clean' corpus.
 
-> The specific coordinates of these 40 microphones (for development and test data) are shown in the table below：
+> The specific coordinates of these 40 microphones (for development and test data) are shown in the tables below：
 >
 <table>
 <thead>
@@ -556,6 +556,10 @@ Pos 1 to 4 were selected to replay 'test-clean' corpus and pos 5 to 8 were selec
   </tr>
 </tbody>
 </table>
+
+> The specific coordinates of the loudspeaker (for training data) are shown in the table below：
+>
+
 
 ## Download Link
 The data can be downloaded at https://github.com/ISmallFish/Libri-adhoc40
