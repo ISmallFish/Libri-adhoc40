@@ -347,7 +347,7 @@ the T60 around 900 ms. Because the room is far from noisy environments, the reco
 > Note that the loudspeaker at ‘pos 9’ has 2 opposite orientations, we refer to the loudspeaker facing upward as `pos 9u`, and the another one as `pos 9d`.
 > 
 
-The relationships between the positions of loudspeaker and the identities of speakers can be found [here](https://github.com/ISmallFish/Libri-adhoc40/blob/main/relationships_of_ldspkrpos_to_spkr/adhoc40_train_pos_to_spkr.xlsx). And the whole training set was saved under the subdirectionary named `.\adhoc40-train\`
+The relationships between the positions of loudspeaker and the identities of speakers can be found [here](https://github.com/ISmallFish/Libri-adhoc40/blob/main/relationships_of_ldspkrpos_to_spkr/adhoc40_train_pos_to_spkr.xlsx). And the whole training set was saved under the subdirectory named `.\adhoc40-train\`
 
 
 ### development and test data
@@ -359,6 +359,203 @@ The plane structure of the office room and the positions of loudspeaker and micr
 Pos 1 to 4 were selected to replay 'test-clean' corpus and pos 5 to 8 were selected to replay 'dev-clean' corpus.
 
 > The specific coordinates of these 40 microphones (for development and test data) are shown in the table below：
+>
+<table>
+<thead>
+  <tr>
+    <th>mic</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+    <th>7</th>
+    <th>8</th>
+    <th>9</th>
+    <th>10</th>
+    <th>11</th>
+    <th>12</th>
+    <th>13</th>
+    <th>14</th>
+    <th>15</th>
+    <th>16</th>
+    <th>17</th>
+    <th>18</th>
+    <th>19</th>
+    <th>20</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>x(m)</td>
+    <td>8.3</td>
+    <td>8.3</td>
+    <td>8.3</td>
+    <td>8.3</td>
+    <td>8.3</td>
+    <td>8.3</td>
+    <td>8.3</td>
+    <td>8.3</td>
+    <td>6.7</td>
+    <td>6.7</td>
+    <td>6.7</td>
+    <td>6.7</td>
+    <td>6.7</td>
+    <td>6.7</td>
+    <td>6.7</td>
+    <td>6.7</td>
+    <td>5.1</td>
+    <td>5.1</td>
+    <td>5.1</td>
+    <td>5.1</td>
+  </tr>
+  <tr>
+    <td>y(m)</td>
+    <td>6</td>
+    <td>5.2</td>
+    <td>4.4</td>
+    <td>4.6</td>
+    <td>2.8</td>
+    <td>2</td>
+    <td>1.2</td>
+    <td>0.4</td>
+    <td>6</td>
+    <td>5.2</td>
+    <td>4.4</td>
+    <td>4.6</td>
+    <td>2.8</td>
+    <td>2</td>
+    <td>1.2</td>
+    <td>0.4</td>
+    <td>6</td>
+    <td>5.2</td>
+    <td>4.4</td>
+    <td>4.6</td>
+  </tr>
+  <tr>
+    <td>z(m)</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+  </tr>
+</tbody>
+</table>
+<table>
+<thead>
+  <tr>
+    <th>mic</th>
+    <th>21</th>
+    <th>22</th>
+    <th>23</th>
+    <th>24</th>
+    <th>25</th>
+    <th>26</th>
+    <th>27</th>
+    <th>28</th>
+    <th>29</th>
+    <th>30</th>
+    <th>31</th>
+    <th>32</th>
+    <th>33</th>
+    <th>34</th>
+    <th>35</th>
+    <th>36</th>
+    <th>37</th>
+    <th>38</th>
+    <th>39</th>
+    <th>40</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>x(m)</td>
+    <td>5.1</td>
+    <td>5.1</td>
+    <td>5.1</td>
+    <td>5.1</td>
+    <td>3.5</td>
+    <td>3.5</td>
+    <td>3.5</td>
+    <td>3.5</td>
+    <td>3.5</td>
+    <td>3.5</td>
+    <td>3.5</td>
+    <td>3.5</td>
+    <td>1.9</td>
+    <td>1.9</td>
+    <td>1.9</td>
+    <td>1.9</td>
+    <td>1.9</td>
+    <td>1.9</td>
+    <td>1.9</td>
+    <td>1.9</td>
+  </tr>
+  <tr>
+    <td>y(m)</td>
+    <td>2.8</td>
+    <td>2</td>
+    <td>1.2</td>
+    <td>0.4</td>
+    <td>6</td>
+    <td>5.2</td>
+    <td>4.4</td>
+    <td>4.6</td>
+    <td>2.8</td>
+    <td>2</td>
+    <td>1.2</td>
+    <td>0.4</td>
+    <td>6</td>
+    <td>5.2</td>
+    <td>4.4</td>
+    <td>4.6</td>
+    <td>2.8</td>
+    <td>2</td>
+    <td>1.2</td>
+    <td>0.4</td>
+  </tr>
+  <tr>
+    <td>z(m)</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+  </tr>
+</tbody>
+</table>
 
 ## Download Link
 The data can be downloaded at https://github.com/ISmallFish/Libri-adhoc40
