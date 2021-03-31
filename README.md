@@ -67,12 +67,16 @@
 >> .\train-clean-100\229\130880\229-130880-0017.flac
 >> ```
 >> 
->> In Libri-adhoc40 corpus, the relative path of sentence '229-130880-0017' has the following form: 
+>> In Libri-adhoc40 corpus, the relative path of recorded sentences from '229-130880-0017' have the following forms: 
 >> ```
->> .\adhoc40-train\pos #\229\130880\229-130880-0017-ch-#.wav
->>                                 \229-130880-0017-anechoic.wav
+>> .\adhoc40-train\pos #\229\130880\229-130880-0017-ch-1.wav
+>> .\adhoc40-train\pos #\229\130880\229-130880-0017-ch-2.wav
+>> .\adhoc40-train\pos #\229\130880\229-130880-0017-ch-3.wav
+>>                          ...
+>> .\adhoc40-train\pos #\229\130880\229-130880-0017-ch-40.wav
+>> .\adhoc40-train\pos #\229\130880\229-130880-0017-anechoic.wav
 >> ```
->> The `pos #` and `ch-#` indicates the position of loudspeaker and microphone number respectively. See below for more detailed descriptions about them.
+>> The `pos #` indicates the position of loudspeaker. See below for more detailed descriptions.
 
 ### training data
 
