@@ -60,12 +60,9 @@
 
   For each utterance in ‘train-clean-100’, ‘dev-clean’, and ‘test-clean’ corpora, we replayed it through loudspeaker both in the office room and the anechoic chamber. Besides, when we collected the training data in the office room, the positions of the 40 microphones are different from those when collecting the development data and test data. 
 
-> Naming rule is as follows:
-
-> Assume that the sentence with the number of '174-84280-0010' was replayed.
-
-> When we recorded it in the office room, we can obtained 40 channels of data.
-> 
+> Assume that the sentence with the number of '174-84280-0010' was replayed, where number '174-84280-0010' means that speaker '174' speaked according to sentence '0010' in chapter '84280'. The naming rule can be described as follows:
+>> When we recorded it in the office room, we can obtained 40 channels of data.
+>> 
 
   See below for more detailed descriptions.
 
