@@ -6,11 +6,14 @@ The Libri-adhoc40 dataset is built on the ‘train-clean-100’, ‘dev-clean’
 
 ### training data
 
-* Recording environment
+#### Recording environment
+
+##### room info
+
+##### placements of microphones and loudspeakr
+
 The plane structure of the office room is shown in Figure 1.
 <img src="https://github.com/ISmallFish/Libri-adhoc40/blob/main/images/train_rec_pic.jpg" width="450">
-
-* naming rule
 
 ### development and test data
 
