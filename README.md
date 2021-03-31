@@ -26,7 +26,7 @@ The Libri-adhoc40 dataset is built on the ‘train-clean-100’, ‘dev-clean’
   <tr>
     <th>subset</th>
     <th>room info</th>
-    <th>total duration<br>（per channel）</th>
+    <th>duration<br>per channel</th>
     <th>spkr nums</th>
     <th>ch nums</th>
     <th>loudspeaker positions</th>
