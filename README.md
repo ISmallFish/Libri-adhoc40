@@ -341,7 +341,7 @@ the T60 around 900 ms. Because the room is far from noisy environments, the reco
 > Note that the loudspeaker at ‘pos 9’ has 2 opposite orientations, we refer to the loudspeaker facing upward as `pos 9u`, and the another one as `pos 9d`.
 > 
 
-The relationships between the loudspeaker positions and the speaker identities can be found [here](****).
+The relationships between the loudspeaker positions and the speaker identities can be found [here](https://github.com/ISmallFish/Libri-adhoc40/blob/main/relationships_of_ldspkrpos_to_spkr/adhoc40_train_pos_to_spkr.xlsx).
 
 
 ### development and test data
