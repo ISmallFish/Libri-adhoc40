@@ -82,11 +82,11 @@
 
 #### **Recording environment**
 
-##### room info placements of microphones and loudspeakr
-
-The plane structure of the office room is shown in Figure 1.
+The plane structure of the office room are as shown below. The red dot indicates the origin of the reference axes. The blue dots indicate the positions of the microphones, whose coordinates are listed in the upper-left corner. The positions and orientations of the loudspeaker are marked by loudspeaker icons. The terms ‘pos’ is short for position. The term ‘mic’ is short for microphone
 
 <img src="https://github.com/ISmallFish/Libri-adhoc40/blob/main/images/train_rec_pic.jpg" width="450">
+
+
 
 ### development and test data
 
