@@ -350,6 +350,10 @@ The plane structure of the office room and the positions of loudspeaker and micr
 >The red dot indicates the origin of the reference axes. The blue dots indicate the positions of the microphones, whose coordinates are listed in the upper-left corner. The positions and orientations of the loudspeaker are marked by loudspeaker icons. The terms ‘pos’ is short for position. The term ‘mic’ is short for microphone.
 <img src="https://github.com/ISmallFish/Libri-adhoc40/blob/main/images/devtest_rec_pic.jpg" width="450">
 
+Pos 1~4 was selected to 
+
+> The specific coordinates of these 40 microphones (for training data) are shown in the table below：
+
 ## Download Link
 The data can be downloaded at https://github.com/ISmallFish/Libri-adhoc40
 
