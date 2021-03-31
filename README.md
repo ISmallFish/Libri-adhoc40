@@ -120,7 +120,7 @@ the T60 around 900 ms. Because the room is far from noisy environments, the reco
 </thead>
 <tbody>
   <tr>
-    <td>x-coordinate (m)</td>
+    <td>x(m)</td>
     <td>9.1</td>
     <td>8.3</td>
     <td>9.1</td>
@@ -143,7 +143,7 @@ the T60 around 900 ms. Because the room is far from noisy environments, the reco
     <td>5.1</td>
   </tr>
   <tr>
-    <td>y-coordinate (m)</td>
+    <td>y(m)</td>
     <td>5.2</td>
     <td>6.0</td>
     <td>3.6</td>
@@ -166,7 +166,7 @@ the T60 around 900 ms. Because the room is far from noisy environments, the reco
     <td>4.4</td>
   </tr>
   <tr>
-    <td>z-coordinate (m)</td>
+    <td>z(m)</td>
     <td>0.9</td>
     <td>0.9</td>
     <td>0.9</td>
@@ -212,7 +212,7 @@ the T60 around 900 ms. Because the room is far from noisy environments, the reco
     <td>40</td>
   </tr>
   <tr>
-    <td>x-coordinate (m)</td>
+    <td>x(m)</td>
     <td>5.9</td>
     <td>5.1</td>
     <td>5.9</td>
@@ -235,7 +235,7 @@ the T60 around 900 ms. Because the room is far from noisy environments, the reco
     <td>1.9</td>
   </tr>
   <tr>
-    <td>y-coordinate (m)</td>
+    <td>y(m)</td>
     <td>2</td>
     <td>2.8</td>
     <td>0.4</td>
@@ -258,7 +258,7 @@ the T60 around 900 ms. Because the room is far from noisy environments, the reco
     <td>1.2</td>
   </tr>
   <tr>
-    <td>z-coordinate (m)</td>
+    <td>z(m)</td>
     <td>0.9</td>
     <td>0.9</td>
     <td>0.9</td>
