@@ -60,7 +60,8 @@
 
   For each utterance in ‘train-clean-100’, ‘dev-clean’, and ‘test-clean’ corpora, we replayed it through loudspeaker both in the office room and the anechoic chamber. Besides, when we collected the training data in the office room, the positions of the 40 microphones are different from those when collecting the development data and test data. 
 
-> naming rule is as follows
+> Naming rule is as follows:
+> Assume that the sentence with the number of '174-84280-0010' was replayed.
   
   See below for more detailed descriptions.
 
