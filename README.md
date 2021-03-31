@@ -61,7 +61,8 @@
   For each utterance in ‘train-clean-100’, ‘dev-clean’, and ‘test-clean’ corpora, we replayed it through loudspeaker both in the office room and the anechoic chamber. Besides, when we collected the training data in the office room, the positions of the 40 microphones are different from those when collecting the development data and test data. 
 
   Assume that the sentence with the number of '174-84280-0010' was replayed, where number '174-84280-0010' means that speaker '174' speaked according to sentence '0010' in chapter '84280'. The naming rule can be described as follows:
-> When we recorded it in the office room, we can obtained 40 channels of data. We first classified them according to the speaker, then according to chapters, and finally according to sentences.
+> We recorded it in the office room and the anechoic chamber respectively, and we can obtained 41 channels of data in total. For each sentence we recorded, we first classified them according to the speaker, then according to chapters, and finally according to sentences. Specifically, for each utterance recorded in the office room, we created a name for it through adding a suffix to the original number ('174-84280-0010') according to the number of the microphone. As for the utterances recorded in anechoic chamber, a suffix named 'anechoic' is added at the end of each utterance.
+> '174-84280-0010'
 
   See below for more detailed descriptions.
 
