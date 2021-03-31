@@ -21,61 +21,52 @@ The Libri-adhoc40 dataset is built on the ‘train-clean-100’, ‘dev-clean’
     </tr>
 </table>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-8fhc{font-family:"Trebuchet MS", Helvetica, sans-serif !important;;font-weight:bold;text-align:center;vertical-align:top}
-</style>
-<table class="tg">
+<table>
 <thead>
   <tr>
-    <th class="tg-8fhc">subset</th>
-    <th class="tg-8fhc">room info</th>
-    <th class="tg-8fhc">total duration<br>（per channel）</th>
-    <th class="tg-8fhc">spkr nums</th>
-    <th class="tg-8fhc">ch nums</th>
-    <th class="tg-8fhc">loudspeaker positions</th>
-    <th class="tg-8fhc">playback corpus<br>in Librispeech</th>
+    <th>subset</th>
+    <th>room info</th>
+    <th>total duration<br>（per channel）</th>
+    <th>spkr nums</th>
+    <th>ch nums</th>
+    <th>loudspeaker positions</th>
+    <th>playback corpus<br>in Librispeech</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-baqh">training data</td>
-    <td class="tg-baqh" rowspan="3">office room<br></td>
-    <td class="tg-baqh">100h</td>
-    <td class="tg-baqh">251</td>
-    <td class="tg-baqh">40</td>
-    <td class="tg-baqh">9</td>
-    <td class="tg-baqh">train-clean-100</td>
+    <td>training data</td>
+    <td rowspan="3">office room<br></td>
+    <td>100h</td>
+    <td>251</td>
+    <td>40</td>
+    <td>9</td>
+    <td>train-clean-100</td>
   </tr>
   <tr>
-    <td class="tg-baqh">dev data</td>
-    <td class="tg-baqh">5h</td>
-    <td class="tg-baqh">40</td>
-    <td class="tg-baqh">40</td>
-    <td class="tg-baqh">4</td>
-    <td class="tg-baqh">dev-clean</td>
+    <td>dev data</td>
+    <td>5h</td>
+    <td>40</td>
+    <td>40</td>
+    <td>4</td>
+    <td>dev-clean</td>
   </tr>
   <tr>
-    <td class="tg-baqh">test data</td>
-    <td class="tg-baqh">5h</td>
-    <td class="tg-baqh">40</td>
-    <td class="tg-baqh">40</td>
-    <td class="tg-baqh">4</td>
-    <td class="tg-baqh">test-clean</td>
+    <td>test data</td>
+    <td>5h</td>
+    <td>40</td>
+    <td>40</td>
+    <td>4</td>
+    <td>test-clean</td>
   </tr>
   <tr>
-    <td class="tg-baqh">ground-truth clean data</td>
-    <td class="tg-baqh">anechoic chamber</td>
-    <td class="tg-baqh">110h</td>
-    <td class="tg-baqh">331</td>
-    <td class="tg-baqh">1</td>
-    <td class="tg-baqh">1</td>
-    <td class="tg-baqh">train-clean-100<br>dev-clean<br>test-clean</td>
+    <td>ground-truth clean data</td>
+    <td>anechoic chamber</td>
+    <td>110h</td>
+    <td>331</td>
+    <td>1</td>
+    <td>1</td>
+    <td>train-clean-100<br>dev-clean<br>test-clean</td>
   </tr>
 </tbody>
 </table>
