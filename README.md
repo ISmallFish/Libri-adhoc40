@@ -615,6 +615,8 @@ Pos 1 to 4 were selected to replay 'test-clean' corpus and pos 5 to 8 were selec
 </tbody>
 </table>
 
+The relationships between the positions of loudspeaker and the identities of speakers can be found [here](https://github.com/ISmallFish/Libri-adhoc40/blob/main/relationships_of_ldspkrpos_to_spkr/adhoc40_devtest_pos_to_spkr.xlsx). The development set and test set were saved under the subdirectories named `.\adhoc40-dev\` and `.\adhoc40-test\` respectively.
+
 ## Download Link
 The data can be downloaded at https://github.com/ISmallFish/Libri-adhoc40
 
