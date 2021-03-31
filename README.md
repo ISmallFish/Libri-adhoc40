@@ -90,6 +90,198 @@ The plane structure of the office room are as shown below.
 The height of the room is 4.2 m. Because the room size is large, and because the floor is laid with smooth tiles, the room is highly reverberant with
 the T60 around 900 ms. Because the room is far from noisy environments, the recorded speech has little additive noise. A directional loudspeaker and 40 omnidirectional microphones of the same type were placed in the room. The sampling rate is 16 kHz.
 
+> The specific coordinates of these 40 microphones (for training data) are shown in the table below：
+>
+<table>
+<thead>
+  <tr>
+    <th>mic</th>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+    <th>4</th>
+    <th>5</th>
+    <th>6</th>
+    <th>7</th>
+    <th>8</th>
+    <th>9</th>
+    <th>10</th>
+    <th>11</th>
+    <th>12</th>
+    <th>13</th>
+    <th>14</th>
+    <th>15</th>
+    <th>16</th>
+    <th>17</th>
+    <th>18</th>
+    <th>19</th>
+    <th>20</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>x-coordinate (m)</td>
+    <td>9.1</td>
+    <td>8.3</td>
+    <td>9.1</td>
+    <td>8.3</td>
+    <td>9.1</td>
+    <td>8.3</td>
+    <td>9.1</td>
+    <td>8.3</td>
+    <td>7.5</td>
+    <td>6.7</td>
+    <td>7.5</td>
+    <td>6.7</td>
+    <td>7.5</td>
+    <td>6.7</td>
+    <td>7.5</td>
+    <td>6.7</td>
+    <td>5.9</td>
+    <td>5.1</td>
+    <td>5.9</td>
+    <td>5.1</td>
+  </tr>
+  <tr>
+    <td>y-coordinate (m)</td>
+    <td>5.2</td>
+    <td>6.0</td>
+    <td>3.6</td>
+    <td>4.4</td>
+    <td>2</td>
+    <td>2.8</td>
+    <td>0.4</td>
+    <td>1.2</td>
+    <td>5.2</td>
+    <td>6.0</td>
+    <td>3.6</td>
+    <td>4.4</td>
+    <td>2</td>
+    <td>2.8</td>
+    <td>0.4</td>
+    <td>1.2</td>
+    <td>5.2</td>
+    <td>6.0</td>
+    <td>3.6</td>
+    <td>4.4</td>
+  </tr>
+  <tr>
+    <td>z-coordinate (m)</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+  </tr>
+  <tr>
+    <td>mic</td>
+    <td>21</td>
+    <td>22</td>
+    <td>23</td>
+    <td>24</td>
+    <td>25</td>
+    <td>26</td>
+    <td>27</td>
+    <td>28</td>
+    <td>29</td>
+    <td>30</td>
+    <td>31</td>
+    <td>32</td>
+    <td>33</td>
+    <td>34</td>
+    <td>35</td>
+    <td>36</td>
+    <td>37</td>
+    <td>38</td>
+    <td>39</td>
+    <td>40</td>
+  </tr>
+  <tr>
+    <td>x-coordinate (m)</td>
+    <td>5.9</td>
+    <td>5.1</td>
+    <td>5.9</td>
+    <td>5.1</td>
+    <td>4.3</td>
+    <td>3.5</td>
+    <td>4.3</td>
+    <td>3.5</td>
+    <td>4.3</td>
+    <td>3.5</td>
+    <td>4.3</td>
+    <td>3.5</td>
+    <td>2.7</td>
+    <td>1.9</td>
+    <td>2.7</td>
+    <td>1.9</td>
+    <td>2.7</td>
+    <td>1.9</td>
+    <td>2.7</td>
+    <td>1.9</td>
+  </tr>
+  <tr>
+    <td>y-coordinate (m)</td>
+    <td>2</td>
+    <td>2.8</td>
+    <td>0.4</td>
+    <td>1.2</td>
+    <td>5.2</td>
+    <td>6.0</td>
+    <td>3.6</td>
+    <td>4.4</td>
+    <td>2</td>
+    <td>2.8</td>
+    <td>0.4</td>
+    <td>1.2</td>
+    <td>5.2</td>
+    <td>6.0</td>
+    <td>3.6</td>
+    <td>4.4</td>
+    <td>2</td>
+    <td>2.8</td>
+    <td>0.4</td>
+    <td>1.2</td>
+  </tr>
+  <tr>
+    <td>z-coordinate (m)</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+    <td>0.9</td>
+  </tr>
+</tbody>
+</table>
 
 ### development and test data
 
