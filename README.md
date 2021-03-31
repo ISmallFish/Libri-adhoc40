@@ -350,7 +350,7 @@ the T60 around 900 ms. Because the room is far from noisy environments, the reco
 The relationships between the positions of loudspeaker and the identities of speakers can be found [here](https://github.com/ISmallFish/Libri-adhoc40/blob/main/relationships_of_ldspkrpos_to_spkr/adhoc40_train_pos_to_spkr.xlsx). And the whole training set was saved under the subdirectory named `.\adhoc40-train\`
 
 
-### development and test data
+### Development and test data
 
 The plane structure of the office room and the positions of loudspeaker and microphones are as shown below.
 >The red dot indicates the origin of the reference axes. The blue dots indicate the positions of the microphones, whose coordinates are listed in the upper-left corner. The positions and orientations of the loudspeaker are marked by loudspeaker icons. The terms ‘pos’ is short for position. The term ‘mic’ is short for microphone.
@@ -616,6 +616,12 @@ Pos 1 to 4 were selected to replay 'test-clean' corpus and pos 5 to 8 were selec
 </table>
 
 The relationships between the positions of loudspeaker and the identities of speakers can be found [here](https://github.com/ISmallFish/Libri-adhoc40/blob/main/relationships_of_ldspkrpos_to_spkr/adhoc40_devtest_pos_to_spkr.xlsx). The development set and test set were saved under the subdirectories named `.\adhoc40-dev\` and `.\adhoc40-test\` respectively.
+
+### Ground-truth clean speech
+
+The size of the net space of the anechoic chamber is 11.8×4.2×3.8 m after the installation of sound-absorbing materials.
+
+We replayed the clean speech of Librispeech (including ‘train-clean-100’, ‘dev-clean’, and ‘test-clean’ corpora in Librispeech) in the anechoic chamber to provide the ground-truth clean speech of Libri-adhoc40. The distance between the loudspeaker and the recording device is 40 cm. The sound volume of the loudspeaker was set the same as that in the office room.
 
 ## Download Link
 The data can be downloaded at https://github.com/ISmallFish/Libri-adhoc40
