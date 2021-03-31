@@ -339,7 +339,9 @@ the T60 around 900 ms. Because the room is far from noisy environments, the reco
   </tr>
 </tbody>
 </table>
-> Note that, 
+
+> Note that the loudspeaker at ‘pos 9’ has 2 opposite orientations, we refer to the loudspeaker facing upward as `pos 9u`, and the another one as `pos 9d`.
+> 
 ### development and test data
 
 
