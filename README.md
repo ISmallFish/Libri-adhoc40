@@ -61,7 +61,7 @@
   For each utterance in ‘train-clean-100’, ‘dev-clean’, and ‘test-clean’ corpora, we replayed it through loudspeaker both in the office room and the anechoic chamber. Besides, when we collected the training data in the office room, the positions of the 40 microphones are different from those when collecting the development data and test data. 
 
   Assume that the sentence with the number of '229-130880-0017' was replayed, where number '229-130880-0017' means that speaker '229' speaked according to sentence '0017' in chapter '130880'. The naming rule can be described as follows:
-> We can obtained 41 channels of data in total, since we recorded it in the office room and the anechoic chamber respectively. For each sentence we recorded, we first classified them according to the position of loudspeaker and speaker, then according to the chapters, and finally according to the orginal sentences number. Specifically, for each utterance recorded in the office room, we created a new name for it through adding a suffix to the original number ('174-84280-0010') according to the number of the microphone. As for the utterances recorded in anechoic chamber, a suffix named 'anechoic' is added at the end of each utterance.
+> We can obtain 41 channels of data in total, since we recorded it in the office room and the anechoic chamber respectively. For each sentence we recorded, we first classified them according to the position of loudspeaker and speaker, then according to the chapters, and finally according to the original sentences number. Specifically, for each utterance recorded in the office room, we created a new name for it through adding a suffix to the original number ('174-84280-0010') according to the number of the microphone. As for the utterances recorded in anechoic chamber, a suffix named 'anechoic' is added at the end of each utterance.
 >> In Librispeech corpus, the relative path of sentence '229-130880-0017' is:
 >> ```
 >> .\train-clean-100\229\130880\229-130880-0017.flac
@@ -80,12 +80,12 @@
 
 ### **Training data**
 
-The plane structure of the office room is as shown below. 
+The plane structure of the office room is shown below. 
 
 >The red dot indicates the origin of the reference axes. The blue dots indicate the positions of the microphones, whose coordinates are listed in the upper-left corner. The positions and orientations of the loudspeaker are marked by loudspeaker icons. The terms ‘pos’ is short for position. The term ‘mic’ is short for microphone.
 <img src="https://github.com/ISmallFish/Libri-adhoc40/blob/main/images/train_rec_pic.jpg" width="450">
 
-The height of the room is 4.2 m. Because the room size is large, and because the floor is laid with smooth tiles, the room is highly reverberant with
+The height of the room is 4.2 m. Because the room size is large, and the floor is laid with smooth tiles, the room is highly reverberant with
 the T60 around 900 ms. Because the room is far from noisy environments, the recorded speech has little additive noise. A directional loudspeaker and 40 omnidirectional microphones of the same type were placed in the room. The sampling rate is 16 kHz.
 
 > The specific coordinates of these 40 microphones (for training data) are shown in the tables below：
@@ -352,7 +352,7 @@ The relationships between the positions of loudspeaker and the identities of spe
 
 ### Development and test data
 
-The plane structure of the office room and the positions of loudspeaker and microphones are as shown below.
+The plane structure of the office room and the positions of loudspeaker and microphones are shown below.
 >The red dot indicates the origin of the reference axes. The blue dots indicate the positions of the microphones, whose coordinates are listed in the upper-left corner. The positions and orientations of the loudspeaker are marked by loudspeaker icons. The terms ‘pos’ is short for position. The term ‘mic’ is short for microphone.
 <img src="https://github.com/ISmallFish/Libri-adhoc40/blob/main/images/devtest_rec_pic.jpg" width="450">
 
