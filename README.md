@@ -624,7 +624,7 @@ The size of the net space of the anechoic chamber is 11.8×4.2×3.8 m after the 
 We replayed the clean speech of Librispeech (including ‘train-clean-100’, ‘dev-clean’, and ‘test-clean’ corpora in Librispeech) in the anechoic chamber to provide the ground-truth clean speech of Libri-adhoc40. The distance between the loudspeaker and the recording device is 40 cm. The sound volume of the loudspeaker was set the same as that in the office room.
 
 ## Download Link
-The test data of Libri-adhoc40 can be downloaded at https://github.com/ISmallFish/xxx now, and the rest will be available soon. 
+The test data of Libri-adhoc40 can be downloaded at https://www.dropbox.com/s/xs47uqr772s7tdf/adhoc40-test.rar?dl=0 now, and the rest will be available soon. 
 
 ## Reference
 [Libri-adhoc40: A dataset collected from synchronized ad-hoc microphone arrays](https://arxiv.org/abs/2103.15118)
