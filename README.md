@@ -415,7 +415,7 @@ Pos 1 to 4 were selected to replay 'test-clean' corpus and pos 5 to 8 were selec
     <td>6</td>
     <td>5.2</td>
     <td>4.4</td>
-    <td>4.6</td>
+    <td>3.6</td>
     <td>2.8</td>
     <td>2</td>
     <td>1.2</td>
@@ -423,7 +423,7 @@ Pos 1 to 4 were selected to replay 'test-clean' corpus and pos 5 to 8 were selec
     <td>6</td>
     <td>5.2</td>
     <td>4.4</td>
-    <td>4.6</td>
+    <td>3.6</td>
     <td>2.8</td>
     <td>2</td>
     <td>1.2</td>
@@ -431,7 +431,7 @@ Pos 1 to 4 were selected to replay 'test-clean' corpus and pos 5 to 8 were selec
     <td>6</td>
     <td>5.2</td>
     <td>4.4</td>
-    <td>4.6</td>
+    <td>3.6</td>
   </tr>
   <tr>
     <td>z(m)</td>
@@ -517,7 +517,7 @@ Pos 1 to 4 were selected to replay 'test-clean' corpus and pos 5 to 8 were selec
     <td>6</td>
     <td>5.2</td>
     <td>4.4</td>
-    <td>4.6</td>
+    <td>3.6</td>
     <td>2.8</td>
     <td>2</td>
     <td>1.2</td>
@@ -525,7 +525,7 @@ Pos 1 to 4 were selected to replay 'test-clean' corpus and pos 5 to 8 were selec
     <td>6</td>
     <td>5.2</td>
     <td>4.4</td>
-    <td>4.6</td>
+    <td>3.6</td>
     <td>2.8</td>
     <td>2</td>
     <td>1.2</td>
