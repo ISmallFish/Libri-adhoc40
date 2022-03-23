@@ -625,9 +625,12 @@ We replayed the clean speech of Librispeech (including ‘train-clean-100’, �
 
 ## Download Link
 > The test data of Libri-adhoc40 can be downloaded at https://www.dropbox.com/s/3ph407rvr8bhg0e/adhoc40-test.rar?dl=0 now.
+
 > The rest will be available soon. 
 
 ## Reference
 [Libri-adhoc40: A dataset collected from synchronized ad-hoc microphone arrays](https://arxiv.org/abs/2103.15118)
 
 [Scaling sparsemax based channel selection for speech recognition with ad-hoc microphone arrays](https://arxiv.org/abs/2103.15305)
+
+[Attention-based multi-channel speaker verification with ad-hoc microphone arrays](https://arxiv.org/abs/2107.00178)
