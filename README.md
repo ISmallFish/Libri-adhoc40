@@ -636,3 +636,7 @@ We replayed the clean speech of Librispeech (including ‘train-clean-100’, �
 [Scaling sparsemax based channel selection for speech recognition with ad-hoc microphone arrays](https://arxiv.org/abs/2103.15305)
 
 [Attention-based multi-channel speaker verification with ad-hoc microphone arrays](https://arxiv.org/abs/2107.00178)
+
+[Deep ad-hoc beamforming based on speaker extraction for target-dependent speech separation](https://www.sciencedirect.com/science/article/pii/S0167639322000589?casa_token=Uj0jrTfqbwUAAAAA:fX0qPU0ws-g0Go3Khru4wRMlCb4JNv4onYgOTW6OgPH0xVJXyDh6nvGvcw8IP-KIcIYTxJc)
+
+[Multi-Channel Far-Field Speaker Verification with Large-Scale Ad-hoc Microphone Arrays](https://arxiv.org/abs/2110.05975)
