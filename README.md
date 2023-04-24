@@ -626,6 +626,8 @@ We replayed the clean speech of Librispeech (including ‘train-clean-100’, �
 ## Download Link
 > The test data of Libri-adhoc40 can be downloaded at https://www.dropbox.com/s/3ph407rvr8bhg0e/adhoc40-test.rar?dl=0 now.
 
+> The dev data of Libri-adhoc40 can be downloaded at https://www.dropbox.com/sh/8ekn3804gipybbq/AABh4TP8NQI_zKu6Rhf_3fQ_a?dl=0 now.
+
 > The rest will be available soon. 
 
 ## Reference
